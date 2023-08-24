@@ -59,5 +59,8 @@ key_entry.place(x=130,y=100)
 login_button=customtkinter.CTkButton(app,command=login,text="Login", font=font1,text_color="#FFFFFF",fg_color="#07b527",hover_color="#07b527",width=76)
 login_button.place(x=150,y=150)
 
+credits_label=customtkinter.CTkLabel(app,text="Made by Craxy.",font=font1,text_color="#FFFFFF")
+credits_label.place(x=450,y=125)
+
 
 app.mainloop()
